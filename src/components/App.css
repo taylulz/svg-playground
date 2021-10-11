@@ -2,8 +2,12 @@
   text-align: center;
 }
 
+#outline {
+  
+}
+
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  #tammy {
     stroke: rgb(234, 1, 255);
     stroke-dasharray: 1100;
     stroke-width: 9;
@@ -24,27 +28,20 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   #Lfoot {
     stroke: rgb(0, 0, 0);
     stroke-dasharray: 1100;
     stroke-width: 9;
-    animation: spin infinite 4s alternate;
+    animation: Lfoot infinite 4s alternate;
   }
 }
 
-@keyframes spin {
-  from {
-    /* transform: rotate(0deg); */
-    /* stroke: blue; */
-  }
+@keyframes Lfoot {
   to {
-    /* stroke-dashoffset: 50;
-    stroke: yellow; */
-    /* transform: rotate(360deg); */
     stroke-dashoffset: 1100;
   }
-}
+} */
 
 .App-link {
   color: #ff74e1;
